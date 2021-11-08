@@ -1,0 +1,406 @@
+@font-face {
+font-family: "Museo Sans Cyrl 500";
+src: url("../fonts/Museo Sans Cyrl 500.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+}
+.container {
+    width: 1312px;
+    margin: auto;
+}
+header {
+    border-bottom: 1px solid rgba(233, 233, 233, 0.8);
+}
+.logo-phone{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
+.logo-phone>img{
+    margin-right: 40px;
+}
+.logo-phone .geo {
+    margin-top: 14px;
+    padding-left: 32px;
+    border-left: 1px solid rgba(233, 233, 233, 0.8);
+    height: 45px;
+    width: 565px;
+}
+.logo-phone .geo a{
+    text-decoration: none;
+}
+.logo-phone .geo .moscow{
+    font-weight: bold;
+    font-size: 20px;
+    color: #014751;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.logo-phone .geo img{
+    display: inline-block;
+    margin-right: 8px;
+}
+.logo-phone .geo .clinic{
+    font-weight: bold;
+    font-size: 14px;
+    color: #014751;
+}
+.logo-phone .geo .clinic span{
+    font-weight: bold;
+    font-size: 14px;
+    color: #878787;
+}
+.logo-phone .info {
+    width: 330px;
+}
+.logo-phone .info p{
+    font-size: 14px;
+    color: rgb(3 80 99 / 60%);
+    margin-bottom: 1px;
+    text-align: right;
+}
+.logo-phone .info a img{
+    transform: translateY(8px);
+}
+.logo-phone .info .number{
+    font-weight: bold;
+    font-size: 24px;
+    color: #035063;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-left: 16px;
+}
+.logo-phone .info .mail{
+    font-weight: 600;
+    font-size: 14px;
+    color: #014751;
+    text-decoration: none;
+    float: right;
+    margin-top: 10px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}
+.menu .home {
+    margin-right: 40px;
+}
+.menu .home img {
+    transform: translateY(-4px);
+}
+.menu .menu__ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 16px;
+}
+.menu .menu__ul li{
+    list-style-type: none;
+}
+.menu .menu__ul a{
+    font-weight: 800;
+    font-size: 16px;
+    color: #035063;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 63px;
+}
+.menu .menu__ul a:hover{
+    color: #11839E;
+}
+.menu .button {
+    display: flex;
+    margin-left: 31px;
+}
+.menu .button a{
+    text-decoration: none;
+}
+.menu .button a:last-child {
+    transform: translateY(-12px);
+    margin-left: 40px;
+}
+.menu .button p{
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: linear-gradient(
+            0deg, #FF7512, #FF7512);
+    border-radius: 38px;
+    padding: 12px 32px;
+}
+.title-block {
+    background: rgba(239, 239, 239, 0.3);
+}
+.title-block .bread-crumbs {
+    margin-top: 12px;
+    margin-bottom: 22px;
+}
+.title-block .bread-crumbs a{
+    font-size: 16px;
+    color: rgba(3, 80, 99, 0.7);
+    text-decoration: none;
+}
+.title-block .bread-crumbs span {
+    width: 5px;
+    background: rgba(3, 80, 99, 0.7);
+    height: 5px;
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 10px;
+    transform: translateY(-2px
+    );
+    border-radius: 100%;
+}
+.title-block .bread-crumbs a:hover{
+    color: #11839E;
+}
+.title-block .bread-crumbs a img{
+    transform: translateY(12px);
+}
+.title-block .blog-output {
+    padding-bottom: 112px;
+}
+.title-block .blog-output * {
+    font-family: 'Museo Sans Cyrl 500';
+}
+.title-block .blog-output h1 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #014751;
+    margin-bottom: 25px;
+}
+.title-block .blog-output p {
+    font-size: 20px;
+    color: #014751;
+    width: 74%;
+}
+.slider {
+    margin-top: -109px;
+    height: 556px;
+    overflow: hidden;
+}
+.slider .wrap {
+}
+.slider .block {
+    background: url("../img/bg-slide.png");
+    height: 500px;
+    position: relative;
+    padding-top: 56px;
+    background-position-y: 56px;
+    background-repeat: no-repeat;
+    width: 1312px;
+    display: inline-block;
+    margin-right: -4px;
+}
+.slider .block .text {
+    padding-top: 66px;
+    padding-left: 69px;
+    max-width: 670px;
+}
+.slider .block .action{
+    text-decoration: none;
+}
+.slider .block .action p {
+    background: #035063;
+    border-radius: 3.36145px;
+    color: #FFFFFF;
+    padding: 3px 7px;
+    display: inherit;
+    font-size: 16px;
+}
+.slider .block h2 {
+    font-weight: bold;
+    font-size: 48px;
+    color: #035063;
+    margin-top: 5px;
+}
+.slider .block .price .old {
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration-line: line-through;
+    color: #333333;
+    margin-top: 28px;
+}
+.slider .block .price .discount {
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #FF7512;
+    border-radius: 4.99724px;
+    display: initial;
+    padding: 6px 11px;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 143px;
+}
+.slider .block .price .new {
+    font-weight: 800;
+    font-size: 46px;
+    color: #035063;
+}
+.slider .block .price .new span {
+    font-size: 34px;
+}
+.slider .block .price .acts {
+    font-size: 14px;
+    color: #333333;
+    opacity: 0.75;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+.slider .block .button {
+    display: flex;
+}
+.slider .block .button a {
+    text-decoration: none;
+}
+.slider .block .button a p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 18px 40px;
+    border-radius: 40px;
+}
+.slider .block .button a:first-child p {
+    background: #FF7512;
+    margin-right: 20px;
+}
+.slider .block .button a:last-child p {
+    background: rgba(3, 80, 99, 0.7);
+}
+.slider .block > img {
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.slider .block .ultrasound {
+    height: 84%;
+}
+@media (max-width: 1311px) {
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+    .menu .home{
+        margin-right: 10px;
+    }
+    .menu .menu__ul{
+        display: none;
+    }
+    .menu .menu__ul.active{
+        display: grid;
+         width: 100%;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .menu .button {
+        margin-top: 30px;
+        width: 100%;
+        display: initial;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 30px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .menu .button p{
+        display: inherit;
+    }
+    .menu .button img{
+        transform: translateY(9px);
+    }
+    .menu .menu__ul li{
+        margin-bottom: 6px;
+    }
+    .title-block .blog-output h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .title-block .blog-output p{
+        text-align: center;
+        width: auto;
+    }
+
+    .logo-phone{
+        grid-template-columns: 1fr;
+    }
+    .logo-phone .geo,
+    .logo-phone .info{
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .logo-phone .info p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .logo-phone .info .mail{
+        float: initial;
+    }
+    .logo-phone>img {
+        margin-right: 0px;
+    }
+    .slider .block{
+        width: 580px;
+        background-size: 100%;
+        height: 100%;
+    }
+    .slider .block > img{
+        top: 28px;
+        z-index: 0;
+        height: 82%;
+    }
+    .slider .block .text {
+        padding: 11px;
+        z-index: 8;
+        position: relative;
+        /*width: 65%;*/
+    }
+    .slider .block h2{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .slider .block .price .old{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .slider .block .price .discount {
+        padding: 4px 8px;
+        margin-top: -20px;
+    }
+    .slider .block .price .new {
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    .slider .block .price .new span{
+        font-size: 17px;
+    }
+    .slider .block .price .acts{
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .slider .block .button a p {
+        padding: 5px 8px;
+        font-size: 13px;
+    }
+    .slider .block .button{
+        margin-top: -19px;
+    }
+    .slider .block .action p {
+        padding: 2px 5px;
+        font-size: 12px;
+    }
+}
